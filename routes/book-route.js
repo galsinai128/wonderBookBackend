@@ -3,10 +3,10 @@
 const BOOK_URL = '/book';
 const bookService = require('../services/book-service')
 
-function addBookrRoute(app) {
+function addBookRoutes(app) {
     app.get(BOOK_URL, (req, res) => {
         bookService.query()
-            .then(book => res.json(books))
+            .then(books => res.json(books))
     })
 
     // SINGLE
@@ -35,9 +35,9 @@ function addBookrRoute(app) {
     app.put(`${BOOK_URL}/:bookId`, (req, res) => {
         const book = req.body;
         bookService.update(book)
-            .then(car => res.json(book))
+            .then(book => res.json(book))
     })
 }
 
  
-module.exports = addBookrRoute;
+module.exports = addBookRoutes;

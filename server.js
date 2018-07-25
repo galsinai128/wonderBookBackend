@@ -30,15 +30,15 @@ app.use(express.static('../frontend'))
 
 
 
-// const addBookRoutes = require('./routes/toy-route.js')
-// const addUserRoutes = require('./routes/user-route.js')
+const addBookRoutes = require('./routes/book-route.js')
+const addUserRoutes = require('./routes/user-route.js')
 // const addReviewRoutes = require('./routes/review-route.js')
-// const addLoginRoutes = require('./routes/login-route.js')
 
-addToyRoutes(app)
+
+addBookRoutes(app)
 addUserRoutes(app)
-addReviewRoutes(app)
-addLoginRoutes(app)
+// addReviewRoutes(app)
+
 
 
 const port = process.env.PORT || 3000;
