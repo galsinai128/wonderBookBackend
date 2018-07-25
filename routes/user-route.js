@@ -1,8 +1,8 @@
 const userService = require('../services/user-service')
 // const reviewService = require('../services/review-service')
 const BASE = '/user'
-
-function addRoutes(app) {
+//todo login singup
+function addUserRoutes(app) {
     app.get(BASE, (req, res) => {
         userService.query()
             .then(users => res.json(users))
@@ -54,4 +54,4 @@ function addRoutes(app) {
 }
 
 
-module.exports = addRoutes;
+module.exports = addUserRoutes;
