@@ -1,37 +1,20 @@
-const cors = require('cors');
-
-
 // This is the entry point for our server side code
-
 const express = require('express');
+const cors = require('cors');
 const bodyParser = require('body-parser');
-
 const cookieParser = require('cookie-parser')
 const session = require('express-session')
 
 // Create an express app
 const app = express()
 
-
-app.use(express.static('dist'));
-
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
- console.log(`App listening on port ${port}!`)
-});
-
-// Serve static files (HTMLs, CSSs, JSs, Imgs, etc) from this folder
-app.use(express.static('../frontend'))
+app.use(cors({
+  origin: ['http://localhost:8080'],
+  credentials: true // enable set cookie
+}));
 
 // Support JSON in the request's body (for our: POST/PUT requests)
 app.use(bodyParser.json());
-
-
-app.use(cors({
-    origin: ['http://localhost:8080'],
-    credentials: true // enable set cookie
-}));
-
 app.use(cookieParser());
 app.use(session({
   secret: 'secret',
@@ -39,6 +22,31 @@ app.use(session({
   saveUninitialized: true,
   cookie: { secure: false }
 }))
+
+// app.use(express.static('dist'));
+
+// Serve static files (HTMLs, CSSs, JSs, Imgs, etc) from this folder
+app.use(express.static('../frontend'))
+
+
+
+// const addBookRoutes = require('./routes/toy-route.js')
+// const addUserRoutes = require('./routes/user-route.js')
+// const addReviewRoutes = require('./routes/review-route.js')
+// const addLoginRoutes = require('./routes/login-route.js')
+
+addToyRoutes(app)
+addUserRoutes(app)
+addReviewRoutes(app)
+addLoginRoutes(app)
+
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+ console.log(`App listening on port ${port}!`)
+});
+
+
 
 // Add Specific routes
 //const addUserRoutes = require ('./routes/UserRoute')
