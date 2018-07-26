@@ -4,7 +4,7 @@
         author: 'Smanga Simelane',
         illustrator: 'Amy-Jane Harkess',
         categories: ['Age 2-5 Years', 'Age 6-9 years', 'All FKB Books', 'Beginner English', 'Bookdash', 'Creative Commons', 'Early Reader', 'Grade 1 to Grade 3', 'Grade K and Pre K', 'Learning to Read', 'Toddlers'],
-        descrition: 'When Miss Sunflower has her pumpkin pie stolen, Officers Zig and Zag promise to catch the thief. This colourful picture book has lots exciting adjectives, verbs, and prepositions for early learning. Under and over, up and down, into and around, fast and slow, jumped, rolled, ran, and some manners from Miss Sunflower when the crooks are',
+        descriptionn: 'When Miss Sunflower has her pumpkin pie stolen, Officers Zig and Zag promise to catch the thief. This colourful picture book has lots exciting adjectives, verbs, and prepositions for early learning. Under and over, up and down, into and around, fast and slow, jumped, rolled, ran, and some manners from Miss Sunflower when the crooks are',
         rating : 4.5,
         views : 1761,
         numOfPages : 6,
@@ -59,7 +59,7 @@
         author: 'Michelle Preen',
         illustrator: 'Karen Lilje',
         categories: ['Age 2-5 Years', 'All FKB Books', 'Animals', 'Beginner English, Bookdash', 'Creative Commons, Early Reader',' Grade K and Pre K', 'Toddlers'],
-        descrition: 'Hyena has lost his laugh. Who will help him find it? This short beautifully illustrated book is lots of fun for young children. The Lost Laugh includes lots of repetition and simple language, making it a great book for early readers, older brothers and sisters learning to read will enjoy reading to their younger siblings',
+        descriptionn: 'Hyena has lost his laugh. Who will help him find it? This short beautifully illustrated book is lots of fun for young children. The Lost Laugh includes lots of repetition and simple language, making it a great book for early readers, older brothers and sisters learning to read will enjoy reading to their younger siblings',
         rating : 4.5,
         views : 8535,
         numOfPages : 6,
@@ -113,11 +113,12 @@
         author: 'Michelle Dennise',
         illustrator: 'Omer Sela',
         categories: ['Age 2-5 Years', 'All FKB Books', 'Animals', 'Dogs', 'Learning to Read', 'Toddlers'],
-        descrition: 'Where’s my Sandwich is a delightful story for young children’s about a picnic in the park and a mysterious missing sandwich. The story features repetition and simple language making it great for learning to read age children. This is another great free children’s story provided by Michelle Dennise.',
+        descriptionn: 'Where’s my Sandwich is a delightful story for young children’s about a picnic in the park and a mysterious missing sandwich. The story features repetition and simple language making it great for learning to read age children. This is another great free children’s story provided by Michelle Dennise.',
         rating : 4.15,
         views : 1381,
         numOfPages : 7,
         audio : '',
+        coverImg : './sandwich/cover.jpg',
         pages : [
             {
                 txt : 'Where’s My Sandwich?',
@@ -172,11 +173,12 @@
         author: 'Madhav Chavan',
         illustrator: 'Rijuta Ghate',
         categories: ['Beginner English', 'Behaviour', 'Creative Commons', 'Family', 'Toddlers'],
-        descrition: 'Walking Together tells a simple rhyming story about walking together to the clinic. A beautiful story for young children who may be afraid of going to the Doctor. Another great creative commons book by Bookdash!',
+        descriptionn: 'Walking Together tells a simple rhyming story about walking together to the clinic. A beautiful story for young children who may be afraid of going to the Doctor. Another great creative commons book by Bookdash!',
         rating : 3.46,
         views : 4904,
         numOfPages : 7,
         audio : '',
+        coverImg: './walkingTogether/cover.jpg',
         pages : [
             {
                 txt : 'Walking Together',
@@ -235,6 +237,7 @@
         views : 3463,
         numOfPages : 0,
         audio : '',
+        coverImg: './kingdom/cover.jpg',
         pages : [
             {
                 txt : 'Monster Kingdom',
