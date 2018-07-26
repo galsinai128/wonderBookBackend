@@ -1,11 +1,12 @@
 const mongoService = require('./mongo-service.js') 
 const ObjectId = require('mongodb').ObjectId;
 
-function query() {
+function query(str) {
     return mongoService.connect()
     // return connectToMongo()
         .then(db => {
             const collection = db.collection('book');
+            if (str) return collection.find({"title" : {$regex : ".*"+str+".*"}}).toArray()
             return collection.find({}).toArray()
         })
 }
