@@ -5,7 +5,7 @@ const bookService = require('../services/book-service')
 
 function addBookRoutes(app) {
     app.get(BOOK_URL, (req, res) => {
-        bookService.query()
+        bookService.query(req.query.q)
             .then(books => res.json(books))
     })
 
