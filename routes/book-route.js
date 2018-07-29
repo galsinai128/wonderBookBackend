@@ -5,7 +5,10 @@ const bookService = require('../services/book-service')
 
 function addBookRoutes(app) {
     app.get(BOOK_URL, (req, res) => {
-        bookService.query(req.query.q)
+        if (req.query.txt) var filterBy = req.query
+        else if (req.query.categorie) var filterBy = req.query
+        else filterBy = null
+        bookService.query(filterBy)
             .then(books => res.json(books))
     })
 
@@ -39,5 +42,5 @@ function addBookRoutes(app) {
     })
 }
 
- 
+
 module.exports = addBookRoutes;
