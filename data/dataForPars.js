@@ -8,6 +8,7 @@
         rating : 4.5,
         views : 1761,
         numOfPages : 6,
+        duration: 71,
         audio : './audio/thePumpkinChase.mp3',
         coverImg : './img/books/Pumpkin/cover.jpg',
         pages : [
@@ -24,107 +25,106 @@
             },
             {
                 time : 6,
-                img : './img/books/Pumpkin/page1.PNG',
+                img : './img/books/Pumpkin/page1.jpg',
                 paragraphs: [
                     {
                         txt: 'Miss Sunflower is crying.',
-                        parStartTime: 0,
+                        parStartTime: 6,
                         parEndTime: 0
                     },
                     {
                         txt: '“A thief just stole my pumpkin pie!”',
-                        parStartTime: 0,
+                        parStartTime: 9.6,
                         parEndTime: 0
                     },
                     {
                         txt: '“Now what will I have for dinner?” she sobs.',
-                        parStartTime: 0,
+                        parStartTime: 13.5,
                         parEndTime: 0
                     }
                 ]
             },
             {
                 time : 19,
-                img : './img/books/Pumpkin/page2.PNG',
+                img : './img/books/Pumpkin/page2.jpg',
                 paragraphs: [
                     {
                         txt: '“Don’t cry Miss Sunflower”',
-                        parStartTime: 0,
+                        parStartTime: 19,
                         parEndTime: 0
                     },
                     {
                         txt: '“We will find your pumpkin pie” said Officer Zig.',
-                        parStartTime: 0,
+                        parStartTime: 21.8,
                         parEndTime: 0
                     },
                     {
                         txt: '“We will catch that crook!” said Officer Zag.',
-                        parStartTime: 0,
+                        parStartTime: 26,
                         parEndTime: 0
                     }
                 ]
             },
             {
                 time : 32,
-                img : './img/books/Pumpkin/page3.PNG',
+                img : './img/books/Pumpkin/page3.jpg',
                 paragraphs: [
                     {
                         txt: '“Look! There he goes!” said Officer Zig.',
-                        parStartTime: 0,
+                        parStartTime: 32,
                         parEndTime: 0
                     }
                 ]
             },
             {
                 time : 38,
-                img : './img/books/Pumpkin/page4.PNG',
+                img : './img/books/Pumpkin/page4.jpg',
                 paragraphs: [
                     {
                         txt: '“I’m too fast and you’re too slow.”',
-                        parStartTime: 0,
+                        parStartTime: 38,
                         parEndTime: 0
                     },
                     {
                         txt: '“You will never catch the pumpkin pie thief!”',
-                        parStartTime: 0,
+                        parStartTime: 43,
                         parEndTime: 0
                     },
                     {
                         txt: 'cried the crook.',
-                        parStartTime: 0,
+                        parStartTime: 46.3,
                         parEndTime: 0
                     }
                 ]
             },
             {
                 time : 48.5,
-                img : './img/books/Pumpkin/page5.PNG',
+                img : './img/books/Pumpkin/page5.jpg',
                 paragraphs: [
                     {
                         txt: '“Hurray! We caught the crook!” said the cops.',
-                        parStartTime: 0,
+                        parStartTime: 48.5,
                         parEndTime: 0
                     }
                 ]
             },
             {
-                txt : 'Officer Zig and Officer Zag returned the pumpkin pie to Miss Sunflower. “Thank you very much,” said Miss Sunflower. Dinner time!',
                 time : 55.5,
-                img : './img/books/Pumpkin/page6.PNG',
+                img : './img/books/Pumpkin/page6.jpg',
                 paragraphs: [
                     {
-                        txt: '“I’m too fast and you’re too slow.”',
-                        parStartTime: 0,
+                        txt: 'Officer Zig and Officer Zag returned the pumpkin pie to Miss Sunflower.',
+                        parStartTime: 55.5,
                         parEndTime: 0
                     },
                     {
-                        txt: '“You will never catch the pumpkin pie thief!”',
-                        parStartTime: 0,
+                        txt: '“Thank you very much,” said Miss Sunflower.',
+                        parStartTime: 62.5,
                         parEndTime: 0
                     },
                     {
-                        txt: 'cried the crook.',
-                        parStartTime: 0,
+                        txt: 'Dinner time!',
+                        parStartTime: 66.2,
                         parEndTime: 0
                     }
                 ]
@@ -143,47 +143,105 @@
         illustrator: 'Karen Lilje',
         categories: ['Age 2-5 Years', 'All FKB Books', 'Animals', 'Beginner English, Bookdash', 'Creative Commons, Early Reader',' Grade K and Pre K', 'Toddlers'],
         description: 'Hyena has lost his laugh. Who will help him find it? This short beautifully illustrated book is lots of fun for young children. The Lost Laugh includes lots of repetition and simple language, making it a great book for early readers, older brothers and sisters learning to read will enjoy reading to their younger siblings',
-        rating : 4.5,
-        views : 8535,
-        numOfPages : 6,
+        rating: 4.5,
+        views: 8535,
+        numOfPages: 6,
+        duration: 45, 
         audio : './audio/theLostLaugh.mp3',
         coverImg : './img/books/theLostLaugh/cover.jpg',
         pages : [
             {
-                txt : 'The Lost Laugh',
                 time : 0,
-                img : './img/books/theLostLaugh/cover.jpg'
+                img : './img/books/theLostLaugh/cover.jpg',
+                paragraphs: [
+                    {
+                        txt: 'The Lost Laugh',
+                        parStartTime: 0,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : 'Spotty the Hyena is very sad. He has lost his laugh.',
                 time : 5.5,
-                img : './img/books/theLostLaugh/page1.PNG'
+                img : './img/books/theLostLaugh/page1.jpg',
+                paragraphs: [
+                    {
+                        txt: 'Spotty the Hyena is very sad.',
+                        parStartTime: 5.5,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'He has lost his laugh.',
+                        parStartTime: 9.2,
+                        parEndTime: 0
+                    } 
+                ]    
             },
             {
-                txt : '“Please help me find my laugh, Giraffe.”',
                 time : 12,
-                img : './img/books/theLostLaugh/page2.PNG'
+                img : './img/books/theLostLaugh/page2.jpg',
+                paragraphs: [
+                    {
+                        txt: '“Please help me find my laugh, Giraffe.”',
+                        parStartTime: 12,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : '“Please help me find my laugh, Hippo.”',
                 time : 17.8,
-                img : './img/books/theLostLaugh/page3.PNG'
+                img : './img/books/theLostLaugh/page3.jpg',
+                paragraphs: [
+                    {
+                        txt: '“Please help me find my laugh, Hippo.”',
+                        parStartTime: 17.8,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : '“Please help me find my laugh, Warthog.”',
                 time : 23,
-                img : './img/books/theLostLaugh/page4.PNG'
+                img : './img/books/theLostLaugh/page4.jpg',
+                paragraphs: [
+                    {
+                        txt: '“Please help me find my laugh, Warthog.”',
+                        parStartTime: 23,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : '“Please help me find my laugh, Monkey.” “How did you lose it?” ',
                 time : 29,
-                img : './img/books/theLostLaugh/page5.PNG'
+                img : './img/books/theLostLaugh/page5.jpg',
+                paragraphs: [
+                    {
+                        txt: '“Please help me find my laugh, Monkey.”',
+                        parStartTime: 29,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: '“How did you lose it?”',
+                        parStartTime: 33,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : '“I’ll never lose my laugh again,” said Spotty the happy Hyena.',
                 time : 35,
-                img : './img/books/theLostLaugh/page6.PNG'
-            },
+                img : './img/books/theLostLaugh/page6.jpg',
+                paragraphs: [
+                    {
+                        txt: '“I’ll never lose my laugh again”,',
+                        parStartTime: 35,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'said Spotty the happy Hyena.',
+                        parStartTime: 38.6,
+                        parEndTime: 0
+                    }
+                ]
+            }
         ],
 
         reviews : [],
@@ -200,6 +258,7 @@
         rating : 4.15,
         views : 1381,
         numOfPages : 7,
+        duration: 113,
         audio : './audio/whereIsMySandwich.mp3',
         coverImg : './img/books/sandwich/cover.jpg',
         pages : [
@@ -220,22 +279,22 @@
                 paragraphs: [
                     {
                         txt: 'I am very excited today.',
-                        parStartTime: 0,
+                        parStartTime: 5.3,
                         parEndTime: 0
                     },
                     {
                         txt: 'Archie and I are going to the nature reserve for a picnic.',
-                        parStartTime: 0,
+                        parStartTime: 7.7,
                         parEndTime: 0
                     },
                     {
                         txt: 'We love the nature reserve.',
-                        parStartTime: 0,
+                        parStartTime: 12.9,
                         parEndTime: 0
                     },
                     {
                         txt: 'There are many animals to see and a pretty river and open spaces to run and play.',
-                        parStartTime: 0,
+                        parStartTime: 15,
                         parEndTime: 0
                     }
                 ]
@@ -246,12 +305,12 @@
                 paragraphs: [
                     {
                         txt: 'I have packed fruit, lemonade, a cake and best of all - sandwiches.',
-                        parStartTime: 0,
+                        parStartTime: 22,
                         parEndTime: 0
                     },
                     {
                         txt: 'Archie loves my sandwiches.',
-                        parStartTime: 0,
+                        parStartTime: 29.7,
                         parEndTime: 0
                     }
                 ]
@@ -262,12 +321,12 @@
                 paragraphs: [
                     {
                         txt: 'When we arrived at the nature reserve',
-                        parStartTime: 0,
+                        parStartTime: 32.5,
                         parEndTime: 0
                     },
                     {
                         txt: 'I started to set up the picnic while Archie chased some birds.',
-                        parStartTime: 0,
+                        parStartTime: 35.5,
                         parEndTime: 0
                     }
                 ]
@@ -278,17 +337,17 @@
                 paragraphs: [
                     {
                         txt: 'When everything was ready I called to Archie and sat down to eat...',
-                        parStartTime: 0,
+                        parStartTime: 41.3,
                         parEndTime: 0
                     },
                     {
                         txt: 'But my sandwich was missing!',
-                        parStartTime: 0,
+                        parStartTime: 47.3,
                         parEndTime: 0
                     },
                     {
                         txt: '“Where\’s my sandwich?” I said as I looked around.',
-                        parStartTime: 0,
+                        parStartTime: 50.3,
                         parEndTime: 0
                     }
                 ]
@@ -299,17 +358,17 @@
                 paragraphs: [
                     {
                         txt: 'Then I saw it. Crumbs. A crumb trail.',
-                        parStartTime: 0,
+                        parStartTime: 55.3,
                         parEndTime: 0
                     },
                     {
                         txt: 'Interesting! I decided to follow the trail to see where it leads.',
-                        parStartTime: 0,
+                        parStartTime: 62,
                         parEndTime: 0
                     },
                     {
                         txt: 'Maybe I will find my sandwich...or the one who took it',
-                        parStartTime: 0,
+                        parStartTime: 68,
                         parEndTime: 0
                     }
                 ]
@@ -320,12 +379,12 @@
                 paragraphs: [
                     {
                         txt: 'This crumb trail was following the walkway through the bush.',
-                        parStartTime: 0,
+                        parStartTime: 74,
                         parEndTime: 0
                     },
                     {
                         txt: 'It appeared to be leading back to the picnic area.',
-                        parStartTime: 0,
+                        parStartTime: 80.5,
                         parEndTime: 0
                     }
                 ]
@@ -336,33 +395,31 @@
                 paragraphs: [
                     {
                         txt: 'Back at the picnic area I found a very guilty looking puppy.',
-                        parStartTime: 0,
+                        parStartTime: 85.5,
                         parEndTime: 0
                     },
                     {
                         txt: '“Archie, where\’s my sandwich?”',
-                        parStartTime: 0,
+                        parStartTime: 92.3,
                         parEndTime: 0
                     },
                     {
                         txt: '“I’m sorry Nellie, I ate it all up.',
-                        parStartTime: 0,
+                        parStartTime: 96.3,
                         parEndTime: 0
                     },
                     {
                         txt: 'You know I love your sandwiches,” said Archie',
-                        parStartTime: 0,
+                        parStartTime: 100.5,
                         parEndTime: 0
                     }
                 ]
             },
-
         ],
  
         reviews : [],
         status: 'done',
         createdAt: 1532597037875,
- 
     },
     {
         title :'Walking Together',
@@ -373,48 +430,132 @@
         rating : 3.46,
         views : 4904,
         numOfPages : 7,
+        duration: 46,
         audio : './audio/walkingTogether.mp3',
         coverImg: './img/books/walkingTogether/cover.jpg',
         pages : [
             {
-                txt : 'Walking Together',
                 time : 0,
                 img : './img/books/walkingTogether/cover.jpg',
+                paragraphs: [
+                    {
+                        txt: 'Walking Together',
+                        parStartTime: 0,
+                        parEndTime: 0
+                    },
+                ]
             },
             {
-                txt : 'When we go walking and the road is long, we’ll walk together singing a song.',
-                time : 1,
+                time : 3.2,
                 img : './img/books/walkingTogether/page1.jpg',
+                paragraphs: [
+                    {
+                        txt: 'When we go walking and the road is long,',
+                        parStartTime: 3.2,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'we’ll walk together singing a song.',
+                        parStartTime: 6.2,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt :  'I am with you and you are with me. A journey is funwith our family.',
-                time : 2,
+                time : 8.5,
                 img : './img/books/walkingTogether/page2.jpg',
+                paragraphs: [
+                    {
+                        txt: 'I am with you and you are with me.',
+                        parStartTime: 8.5,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'A journey is funwith our family.',
+                        parStartTime: 11.7,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : 'I’ll keep you cosy like a mother hen. She keeps her chicks warm under her wing.',
-                time : 3,
+                time : 14.8,
                 img : './img/books/walkingTogether/page3.jpg',
+                paragraphs: [
+                    {
+                        txt: 'I’ll keep you cosy like a mother hen.',
+                        parStartTime: 14.8,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'She keeps her chicks warm under her wing.',
+                        parStartTime: 17.6,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : 'If the rain starts to fall down from the sky, like that good hat I’ll keep your face dry.',
-                time : 4,
+                time : 20.7,
                 img : './img/books/walkingTogether/page4.jpg',
+                paragraphs: [
+                    {
+                        txt: 'If the rain starts to fall down from the sky,',
+                        parStartTime: 20.7,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'like that good hat I’ll keep your face dry.',
+                        parStartTime: 24.5,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : 'If storm clouds get angry and grumble and moan, be brave, why cry? You’re not alone.',
-                time : 5,
+                time : 27.8,
                 img : './img/books/walkingTogether/page5.jpg',
+                paragraphs: [
+                    {
+                        txt: 'If storm clouds get angry and grumble and moan,',
+                        parStartTime: 27.8,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'be brave, why cry? You’re not alone.',
+                        parStartTime: 31.4,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : 'We’re walking together so we never get bored. Look up! Look around! See where we’ve explored!',
-                time : 6,
+                time : 34.5,
                 img : './img/books/walkingTogether/page6.jpg',
+                paragraphs: [
+                    {
+                        txt: 'We’re walking together so we never get bored.',
+                        parStartTime: 34.5,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'Look up! Look around! See where we’ve explored!',
+                        parStartTime: 37.7,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : 'If you see something that’s funny to see, I don’t want to miss it. Please share it with me!',
-                time : 7,
+                time : 41.5,
                 img : './img/books/walkingTogether/page7.jpg',
+                paragraphs: [
+                    {
+                        txt: 'If you see something that’s funny to see,',
+                        parStartTime: 41.5,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'I don’t want to miss it. Please share it with me!',
+                        parStartTime: 44,
+                        parEndTime: 0
+                    }
+                ]
             },
         ],
  
@@ -432,43 +573,131 @@
         rating : 4.62,
         views : 3463,
         numOfPages : 0,
+        duration: 76,
         audio : './audio/monsterKingdom.mp3',
         coverImg: './img/books/kingdom/cover.jpg',
         pages : [
             {
-                txt : 'Monster Kingdom',
                 time : 0,
-                img : './img/books/kingdom/cover.jpg'
+                img : './img/books/kingdom/cover.jpg',
+                paragraphs: [
+                    {
+                        txt: 'Monster Kingdom',
+                        parStartTime: 0,
+                        parEndTime: 0
+                    },
+                ]
             },
             {
-                txt : 'There was a monster in the kingdom that was so big that it made the earth tremble whenever it walked.',
                 time : 6.5,
-                img : './img/books/kingdom/page1.jpg'
+                img : './img/books/kingdom/page1.jpg',
+                paragraphs: [
+                    {
+                        txt: 'There was a monster in the kingdom that was so big',
+                        parStartTime: 6.5,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'that it made the earth tremble whenever it walked.',
+                        parStartTime: 10.2,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : 'The monster quickly ate the food, but it would be back the next day. The kingdom needed a better plan.',
                 time : 14.5,
-                img : './img/books/kingdom/page2.jpg'
+                img : './img/books/kingdom/page2.jpg',
+                paragraphs: [
+                    {
+                        txt: 'The monster quickly ate the food,',
+                        parStartTime: 14.5,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'but it would be back the next day.',
+                        parStartTime: 18.4,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'The kingdom needed a better plan.',
+                        parStartTime: 21.9,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : 'Fortunately, Sandy went to the king and presented a clever plan for handling the monster.',
                 time :26.3,
-                img : './img/books/kingdom/page3.jpg'
+                img : './img/books/kingdom/page3.jpg',
+                paragraphs: [
+                    {
+                        txt: 'Fortunately, Sandy went to the king',
+                        parStartTime: 26.3,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'and presented a clever plan for handling the monster.',
+                        parStartTime: 30.2,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : 'There was a monster in the kingdom that was so big that it made the earth tremble whenever it walked.',
                 time : 35.1,
-                img : './img/books/kingdom/page4.jpg'
+                img : './img/books/kingdom/page4.jpg',
+                paragraphs: [
+                    {
+                        txt: 'There was a monster in the kingdom that was so big',
+                        parStartTime: 35.1,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'that it made the earth tremble whenever it walked.',
+                        parStartTime: 40,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : 'The monster quickly ate the food, but it would be back the next day. The kingdom needed a better plan.',
                 time : 44.5,
-                img : './img/books/kingdom/page5.jpg'
+                img : './img/books/kingdom/page5.jpg',
+                paragraphs: [
+                    {
+                        txt: 'The monster quickly ate the food,',
+                        parStartTime: 44.5,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'but it would be back the next day.',
+                        parStartTime: 48.3,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'The kingdom needed a better plan.',
+                        parStartTime: 51.3,
+                        parEndTime: 0
+                    }
+                ]
             },
             {
-                txt : 'Fortunately, Sandy went to the king and presented a clever plan for handling the monster.',
                 time : 54.2,
-                img : './img/books/kingdom/page6.jpg'
+                img : './img/books/kingdom/page6.jpg',
+                paragraphs: [
+                    {
+                        txt: 'Fortunately, Sandy went to the king',
+                        parStartTime: 54.2,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'and presented a clever plan',
+                        parStartTime: 58.6,
+                        parEndTime: 0
+                    },
+                    {
+                        txt: 'for handling the monster.',
+                        parStartTime: 61.3,
+                        parEndTime: 0
+                    }
+                ]
             },
 
         ],
