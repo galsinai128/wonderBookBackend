@@ -1,19 +1,32 @@
-const mongoService = require('./mongo-service.js') 
+const mongoService = require('./mongo-service.js')
 const ObjectId = require('mongodb').ObjectId;
 
-function query(str) {
+function query(filter) {
     return mongoService.connect()
-    // return connectToMongo()
+        // return connectToMongo()
         .then(db => {
             const collection = db.collection('book');
-            if (str) return collection.find({"title" : {$regex : ".*"+str+".*"}}).toArray()
-            return collection.find({}).toArray()
+            console.log('filter in back', filter)
+            if (filter) {
+                if (filter.txt) {
+                    let regex = new RegExp(`.*${filter.txt}.*`, "i");
+                    return collection.find({
+                        $or: [{ "title": { $regex: regex } },
+                        { "author": { $regex: regex } }]
+                    }).toArray()
+                }
+                else if (filter.categorie) {
+                    let regexCat = new RegExp(`.*${filter.categorie}.*`, "i");
+                    return collection.find({ "categories": { $regex: regexCat } }).toArray()
+                }
+            } else return collection.find({}).toArray()
+
         })
 }
 
 function getById(bookId) {
     bookId = new ObjectId(bookId)
-    
+
     // return connectToMongo()
     return mongoService.connect()
         .then(db => {

@@ -220,22 +220,22 @@
                 paragraphs: [
                     {
                         txt: 'I am very excited today.',
-                        parStartTime: 0,
+                        parStartTime: 5.3,
                         parEndTime: 0
                     },
                     {
                         txt: 'Archie and I are going to the nature reserve for a picnic.',
-                        parStartTime: 0,
+                        parStartTime: 7.7,
                         parEndTime: 0
                     },
                     {
                         txt: 'We love the nature reserve.',
-                        parStartTime: 0,
+                        parStartTime: 12.9,
                         parEndTime: 0
                     },
                     {
                         txt: 'There are many animals to see and a pretty river and open spaces to run and play.',
-                        parStartTime: 0,
+                        parStartTime: 15,
                         parEndTime: 0
                     }
                 ]
@@ -246,12 +246,12 @@
                 paragraphs: [
                     {
                         txt: 'I have packed fruit, lemonade, a cake and best of all - sandwiches.',
-                        parStartTime: 0,
+                        parStartTime: 22,
                         parEndTime: 0
                     },
                     {
                         txt: 'Archie loves my sandwiches.',
-                        parStartTime: 0,
+                        parStartTime: 29.7,
                         parEndTime: 0
                     }
                 ]
@@ -262,12 +262,12 @@
                 paragraphs: [
                     {
                         txt: 'When we arrived at the nature reserve',
-                        parStartTime: 0,
+                        parStartTime: 32.5,
                         parEndTime: 0
                     },
                     {
                         txt: 'I started to set up the picnic while Archie chased some birds.',
-                        parStartTime: 0,
+                        parStartTime: 35.5,
                         parEndTime: 0
                     }
                 ]
@@ -278,17 +278,17 @@
                 paragraphs: [
                     {
                         txt: 'When everything was ready I called to Archie and sat down to eat...',
-                        parStartTime: 0,
+                        parStartTime: 41.3,
                         parEndTime: 0
                     },
                     {
                         txt: 'But my sandwich was missing!',
-                        parStartTime: 0,
+                        parStartTime: 47.3,
                         parEndTime: 0
                     },
                     {
                         txt: '“Where\’s my sandwich?” I said as I looked around.',
-                        parStartTime: 0,
+                        parStartTime: 50.3,
                         parEndTime: 0
                     }
                 ]
@@ -299,17 +299,17 @@
                 paragraphs: [
                     {
                         txt: 'Then I saw it. Crumbs. A crumb trail.',
-                        parStartTime: 0,
+                        parStartTime: 55.3,
                         parEndTime: 0
                     },
                     {
                         txt: 'Interesting! I decided to follow the trail to see where it leads.',
-                        parStartTime: 0,
+                        parStartTime: 62,
                         parEndTime: 0
                     },
                     {
                         txt: 'Maybe I will find my sandwich...or the one who took it',
-                        parStartTime: 0,
+                        parStartTime: 68,
                         parEndTime: 0
                     }
                 ]
@@ -320,12 +320,12 @@
                 paragraphs: [
                     {
                         txt: 'This crumb trail was following the walkway through the bush.',
-                        parStartTime: 0,
+                        parStartTime: 74,
                         parEndTime: 0
                     },
                     {
                         txt: 'It appeared to be leading back to the picnic area.',
-                        parStartTime: 0,
+                        parStartTime: 80.5,
                         parEndTime: 0
                     }
                 ]
@@ -336,22 +336,22 @@
                 paragraphs: [
                     {
                         txt: 'Back at the picnic area I found a very guilty looking puppy.',
-                        parStartTime: 0,
+                        parStartTime: 85.5,
                         parEndTime: 0
                     },
                     {
                         txt: '“Archie, where\’s my sandwich?”',
-                        parStartTime: 0,
+                        parStartTime: 92.3,
                         parEndTime: 0
                     },
                     {
                         txt: '“I’m sorry Nellie, I ate it all up.',
-                        parStartTime: 0,
+                        parStartTime: 96.3,
                         parEndTime: 0
                     },
                     {
                         txt: 'You know I love your sandwiches,” said Archie',
-                        parStartTime: 0,
+                        parStartTime: 100.5,
                         parEndTime: 0
                     }
                 ]
