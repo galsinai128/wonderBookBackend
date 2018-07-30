@@ -6,7 +6,6 @@ function query(filter) {
         // return connectToMongo()
         .then(db => {
             const collection = db.collection('book');
-            console.log('filter in back', filter)
             if (filter) {
                 if (filter.txt) {
                     let regex = new RegExp(`.*${filter.txt}.*`, "i");
