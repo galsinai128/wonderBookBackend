@@ -3,9 +3,10 @@ const mongoService = require('./mongo-service')
 const ObjectId = require('mongodb').ObjectId;
 
 
-function checkLogin({ nickname }) {
+function checkLogin({ name , password }) {
     return mongoService.connect()
-        .then(db => db.collection('user').findOne({ nickname }))
+        .then(db => db.collection('user').findOne({
+            $and: [{"name" : name} , {"password" : password}] }))
 }
 
 
@@ -23,8 +24,8 @@ function query() {
 }
 
 // todo  - add user only if nickname is not taken
-function addUser({ nickname }) {
-    var user = { nickname }
+function addUser({ name , password , book_id , isAdmin }) {
+    var user = { name , password , book_id , isAdmin}
     return mongoService.connect()
         .then(db => db.collection('user').insertOne(user))
         .then(res => {
