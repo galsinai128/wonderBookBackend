@@ -9,12 +9,12 @@
         views : 1761,
         numOfPages : 6,
         duration: 71,
-        audio : './audio/thePumpkinChase.mp3',
-        coverImg : './img/books/Pumpkin/cover.jpg',
+        audio : 'https://res.cloudinary.com/dqww4qjgo/video/upload/v1532950630/wonder-book/Pumpkin/thePumpkinChase.mp3',
+        coverImg : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845534/wonder-book/Pumpkin/cover.jpg',
         pages : [
             {
                 time : 0,
-                img : './img/books/Pumpkin/cover.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845534/wonder-book/Pumpkin/cover.jpg',
                 paragraphs: [
                     {
                         txt: 'The Pumpkin Chase',
@@ -25,7 +25,7 @@
             },
             {
                 time : 6,
-                img : './img/books/Pumpkin/page1.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845535/wonder-book/Pumpkin/page1.jpg',
                 paragraphs: [
                     {
                         txt: 'Miss Sunflower is crying.',
@@ -46,7 +46,7 @@
             },
             {
                 time : 19,
-                img : './img/books/Pumpkin/page2.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845532/wonder-book/Pumpkin/page2.jpg',
                 paragraphs: [
                     {
                         txt: '“Don’t cry Miss Sunflower”',
@@ -67,7 +67,7 @@
             },
             {
                 time : 32,
-                img : './img/books/Pumpkin/page3.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845532/wonder-book/Pumpkin/page3.jpg',
                 paragraphs: [
                     {
                         txt: '“Look! There he goes!” said Officer Zig.',
@@ -78,7 +78,7 @@
             },
             {
                 time : 38,
-                img : './img/books/Pumpkin/page4.jpg',
+                img : '.https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845532/wonder-book/Pumpkin/page4.jpg',
                 paragraphs: [
                     {
                         txt: '“I’m too fast and you’re too slow.”',
@@ -99,7 +99,7 @@
             },
             {
                 time : 48.5,
-                img : './img/books/Pumpkin/page5.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845533/wonder-book/Pumpkin/page5.jpg',
                 paragraphs: [
                     {
                         txt: '“Hurray! We caught the crook!” said the cops.',
@@ -110,7 +110,7 @@
             },
             {
                 time : 55.5,
-                img : './img/books/Pumpkin/page6.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845535/wonder-book/Pumpkin/page6.jpg',
                 paragraphs: [
                     {
                         txt: 'Officer Zig and Officer Zag returned the pumpkin pie to Miss Sunflower.',
@@ -147,12 +147,12 @@
         views: 8535,
         numOfPages: 6,
         duration: 45, 
-        audio : './audio/theLostLaugh.mp3',
-        coverImg : './img/books/theLostLaugh/cover.jpg',
+        audio : 'https://res.cloudinary.com/dqww4qjgo/video/upload/v1532950681/wonder-book/theLostLaugh/theLostLaugh.mp3',
+        coverImg : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845610/wonder-book/theLostLaugh/cover.jpg',
         pages : [
             {
                 time : 0,
-                img : './img/books/theLostLaugh/cover.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845610/wonder-book/theLostLaugh/cover.jpg',
                 paragraphs: [
                     {
                         txt: 'The Lost Laugh',
@@ -163,7 +163,7 @@
             },
             {
                 time : 5.5,
-                img : './img/books/theLostLaugh/page1.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845609/wonder-book/theLostLaugh/page1.jpg',
                 paragraphs: [
                     {
                         txt: 'Spotty the Hyena is very sad.',
@@ -179,7 +179,7 @@
             },
             {
                 time : 12,
-                img : './img/books/theLostLaugh/page2.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845613/wonder-book/theLostLaugh/page2.jpg',
                 paragraphs: [
                     {
                         txt: '“Please help me find my laugh, Giraffe.”',
@@ -190,7 +190,7 @@
             },
             {
                 time : 17.8,
-                img : './img/books/theLostLaugh/page3.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845611/wonder-book/theLostLaugh/page3.jpg',
                 paragraphs: [
                     {
                         txt: '“Please help me find my laugh, Hippo.”',
@@ -201,7 +201,7 @@
             },
             {
                 time : 23,
-                img : './img/books/theLostLaugh/page4.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845610/wonder-book/theLostLaugh/page4.jpg',
                 paragraphs: [
                     {
                         txt: '“Please help me find my laugh, Warthog.”',
@@ -212,7 +212,7 @@
             },
             {
                 time : 29,
-                img : './img/books/theLostLaugh/page5.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845611/wonder-book/theLostLaugh/page5.jpg',
                 paragraphs: [
                     {
                         txt: '“Please help me find my laugh, Monkey.”',
@@ -228,7 +228,7 @@
             },
             {
                 time : 35,
-                img : './img/books/theLostLaugh/page6.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845614/wonder-book/theLostLaugh/page6.png',
                 paragraphs: [
                     {
                         txt: '“I’ll never lose my laugh again”,',
@@ -259,12 +259,12 @@
         views : 1381,
         numOfPages : 7,
         duration: 113,
-        audio : './audio/whereIsMySandwich.mp3',
-        coverImg : './img/books/sandwich/cover.jpg',
+        audio : 'https://res.cloudinary.com/dqww4qjgo/video/upload/v1532950661/wonder-book/sandwich/whereIsMySandwich.mp3',
+        coverImg : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845580/wonder-book/sandwich/cover.png',
         pages : [
             {
                 time : 0,
-                img : './img/books/sandwich/cover.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845580/wonder-book/sandwich/cover.png',
                 paragraphs: [
                     {
                         txt: 'Where’s My Sandwich?',
@@ -275,7 +275,7 @@
             },
             {
                 time : 5.3,
-                img : './img/books/sandwich/page1.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845574/wonder-book/sandwich/page1.jpg',
                 paragraphs: [
                     {
                         txt: 'I am very excited today.',
@@ -301,7 +301,7 @@
             },
             {
                 time : 22,
-                img : './img/books/sandwich/page2.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845574/wonder-book/sandwich/page2.jpg',
                 paragraphs: [
                     {
                         txt: 'I have packed fruit, lemonade, a cake and best of all - sandwiches.',
@@ -317,7 +317,7 @@
             },
             {
                 time : 32.5,
-                img : './img/books/sandwich/page3.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845575/wonder-book/sandwich/page3.jpg',
                 paragraphs: [
                     {
                         txt: 'When we arrived at the nature reserve',
@@ -333,7 +333,7 @@
             },
             {
                 time : 41.3,
-                img : './img/books/sandwich/page4.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845575/wonder-book/sandwich/page4.jpg',
                 paragraphs: [
                     {
                         txt: 'When everything was ready I called to Archie and sat down to eat...',
@@ -354,7 +354,7 @@
             },
             {
                 time : 55.3,
-                img : './img/books/sandwich/page5.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845575/wonder-book/sandwich/page5.jpg',
                 paragraphs: [
                     {
                         txt: 'Then I saw it. Crumbs. A crumb trail.',
@@ -375,7 +375,7 @@
             },
             {
                 time : 74,
-                img : './img/books/sandwich/page6.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845576/wonder-book/sandwich/page6.jpg',
                 paragraphs: [
                     {
                         txt: 'This crumb trail was following the walkway through the bush.',
@@ -391,7 +391,7 @@
             },
             {
                 time : 85.5,
-                img : './img/books/sandwich/page7.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845576/wonder-book/sandwich/page7.jpg',
                 paragraphs: [
                     {
                         txt: 'Back at the picnic area I found a very guilty looking puppy.',
@@ -431,12 +431,12 @@
         views : 4904,
         numOfPages : 7,
         duration: 46,
-        audio : './audio/walkingTogether.mp3',
-        coverImg: './img/books/walkingTogether/cover.jpg',
+        audio : 'https://res.cloudinary.com/dqww4qjgo/video/upload/v1532950693/wonder-book/walkingTogether/walkingTogether.mp3',
+        coverImg: 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845647/wonder-book/walkingTogether/cover.jpg',
         pages : [
             {
                 time : 0,
-                img : './img/books/walkingTogether/cover.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845647/wonder-book/walkingTogether/cover.jpg',
                 paragraphs: [
                     {
                         txt: 'Walking Together',
@@ -447,7 +447,7 @@
             },
             {
                 time : 3.2,
-                img : './img/books/walkingTogether/page1.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845649/wonder-book/walkingTogether/page1.jpg',
                 paragraphs: [
                     {
                         txt: 'When we go walking and the road is long,',
@@ -463,7 +463,7 @@
             },
             {
                 time : 8.5,
-                img : './img/books/walkingTogether/page2.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845646/wonder-book/walkingTogether/page2.jpg',
                 paragraphs: [
                     {
                         txt: 'I am with you and you are with me.',
@@ -479,7 +479,7 @@
             },
             {
                 time : 14.8,
-                img : './img/books/walkingTogether/page3.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845647/wonder-book/walkingTogether/page3.jpg',
                 paragraphs: [
                     {
                         txt: 'I’ll keep you cosy like a mother hen.',
@@ -495,7 +495,7 @@
             },
             {
                 time : 20.7,
-                img : './img/books/walkingTogether/page4.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845647/wonder-book/walkingTogether/page4.jpg',
                 paragraphs: [
                     {
                         txt: 'If the rain starts to fall down from the sky,',
@@ -511,7 +511,7 @@
             },
             {
                 time : 27.8,
-                img : './img/books/walkingTogether/page5.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845647/wonder-book/walkingTogether/page5.jpg',
                 paragraphs: [
                     {
                         txt: 'If storm clouds get angry and grumble and moan,',
@@ -527,7 +527,7 @@
             },
             {
                 time : 34.5,
-                img : './img/books/walkingTogether/page6.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845648/wonder-book/walkingTogether/page6.jpg',
                 paragraphs: [
                     {
                         txt: 'We’re walking together so we never get bored.',
@@ -543,7 +543,7 @@
             },
             {
                 time : 41.5,
-                img : './img/books/walkingTogether/page7.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845648/wonder-book/walkingTogether/page7.jpg',
                 paragraphs: [
                     {
                         txt: 'If you see something that’s funny to see,',
@@ -574,12 +574,12 @@
         views : 3463,
         numOfPages : 0,
         duration: 76,
-        audio : './audio/monsterKingdom.mp3',
-        coverImg: './img/books/kingdom/cover.jpg',
+        audio : 'https://res.cloudinary.com/dqww4qjgo/video/upload/v1532950642/wonder-book/kingdom/monsterKingdom.mp3',
+        coverImg: 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845503/wonder-book/kingdom/cover.jpg',
         pages : [
             {
                 time : 0,
-                img : './img/books/kingdom/cover.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845503/wonder-book/kingdom/cover.jpg',
                 paragraphs: [
                     {
                         txt: 'Monster Kingdom',
@@ -590,7 +590,7 @@
             },
             {
                 time : 6.5,
-                img : './img/books/kingdom/page1.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845494/wonder-book/kingdom/page1.jpg',
                 paragraphs: [
                     {
                         txt: 'There was a monster in the kingdom that was so big',
@@ -606,11 +606,11 @@
             },
             {
                 time : 14.5,
-                img : './img/books/kingdom/page2.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845496/wonder-book/kingdom/page2.jpg',
                 paragraphs: [
                     {
                         txt: 'The monster quickly ate the food,',
-                        parStartTime: 14.5,
+                         parStartTime: 14.5,
                         parEndTime: 0
                     },
                     {
@@ -627,7 +627,7 @@
             },
             {
                 time :26.3,
-                img : './img/books/kingdom/page3.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845498/wonder-book/kingdom/page3.jpg',
                 paragraphs: [
                     {
                         txt: 'Fortunately, Sandy went to the king',
@@ -643,7 +643,7 @@
             },
             {
                 time : 35.1,
-                img : './img/books/kingdom/page4.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845491/wonder-book/kingdom/page4.jpg',
                 paragraphs: [
                     {
                         txt: 'There was a monster in the kingdom that was so big',
@@ -659,7 +659,7 @@
             },
             {
                 time : 44.5,
-                img : './img/books/kingdom/page5.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845497/wonder-book/kingdom/page5.jpg',
                 paragraphs: [
                     {
                         txt: 'The monster quickly ate the food,',
@@ -680,7 +680,7 @@
             },
             {
                 time : 54.2,
-                img : './img/books/kingdom/page6.jpg',
+                img : 'https://res.cloudinary.com/dqww4qjgo/image/upload/v1532845500/wonder-book/kingdom/page6.jpg',
                 paragraphs: [
                     {
                         txt: 'Fortunately, Sandy went to the king',
