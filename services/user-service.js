@@ -16,8 +16,6 @@ function getById(id) {
         .then(db => db.collection('user').findOne({ _id }))
 }
 
-
-
 function query() {
     return mongoService.connect()
         .then(db => db.collection('user').find({}).toArray())

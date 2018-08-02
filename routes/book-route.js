@@ -1,6 +1,8 @@
 
 
 const BOOK_URL = '/book';
+const IMG_SEARCH_URL = '/getImg';
+
 const bookService = require('../services/book-service')
 
 function addBookRoutes(app) {
@@ -39,6 +41,12 @@ function addBookRoutes(app) {
         const book = req.body;
         bookService.update(book)
             .then(book => res.json(book))
+    })
+
+    app.get(`${IMG_SEARCH_URL}/:seatchImgInput`, (req, res) => {
+        const strSeacrh = req.params.seatchImgInput;
+        bookService.getImgFromApi(strSeacrh)
+            .then(imgUrl => res.json(imgUrl))
     })
 }
 
