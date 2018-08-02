@@ -8,6 +8,7 @@ function connectToMongo() {
     const url = (!process.env.PORT)? 
                     'mongodb://localhost:27017/wonder_book_db' : 'mongodb://goi:963852ogi@ds245661.mlab.com:45661/wonder_book_db'
     
+    // const url = 'mongodb://localhost:27017/wonder_book_db'
     return MongoClient.connect(url)
         .then(client => {
             console.log('Connected to MongoDB');
