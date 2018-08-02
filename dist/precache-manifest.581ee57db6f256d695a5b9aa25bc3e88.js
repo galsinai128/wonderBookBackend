@@ -1,15 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "37dcbcf9eee70f9e7e93ec9f8399ee91",
-    "url": "/img/books/Pumpkin/page4.jpg"
+    "revision": "f6321f90521d9b107f94040f9cd493a1",
+    "url": "/img/books/walkingTogether/page6.jpg"
   },
   {
-    "revision": "9a609630dcadf681473a",
-    "url": "/css/app.b207424d.css"
+    "revision": "bac348ee3b75e45cfcdf",
+    "url": "/css/app.8e7f9b0d.css"
   },
   {
-    "revision": "c5726c2a065b31953ec1",
-    "url": "/js/chunk-vendors.c5726c2a.js"
+    "revision": "8ae49a03a3818e3c605b",
+    "url": "/js/chunk-vendors.8ae49a03.js"
+  },
+  {
+    "revision": "94dfa95073c7048fb495b100f07f5a79",
+    "url": "/img/logo.94dfa950.png"
   },
   {
     "revision": "773b81eacde65ae7f489033e1fbd774e",
@@ -18,10 +22,6 @@ self.__precacheManifest = [
   {
     "revision": "f5bd767db88ba143e2d5883069b20c1a",
     "url": "/img/childBlachWhite.f5bd767d.jpeg"
-  },
-  {
-    "revision": "94dfa95073c7048fb495b100f07f5a79",
-    "url": "/img/logo.94dfa950.png"
   },
   {
     "revision": "70f85d927f320e7ce7ac9696e8fb2809",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/img/3.b3544252.jpg"
   },
   {
-    "revision": "ed0242c988e4ce5a736b5477c65e9448",
+    "revision": "638cf9dbc7d912e8c7f6113f69aa1a66",
     "url": "/index.html"
   },
   {
@@ -92,7 +92,11 @@ self.__precacheManifest = [
     "url": "/img/background/logo.png"
   },
   {
-    "revision": "9d4dd6dabadcc82a7e1455cbdd722702",
+    "revision": "9a6b7b1cebfae354fd9dc3af01590dfb",
+    "url": "/img/background/placeholder.png"
+  },
+  {
+    "revision": "d5c6d5712dd0436e9c022c3748310bf0",
     "url": "/identation.html"
   },
   {
@@ -104,12 +108,12 @@ self.__precacheManifest = [
     "url": "/img/me.jpg"
   },
   {
-    "revision": "9dd2a7babbfd991337eb71e91ec681a8",
-    "url": "/img/books/sandwich/page1.JPG"
-  },
-  {
     "revision": "1be538cf7022412f933f16e6227e9cd7",
     "url": "/img/books/sandwich/page2.jpg"
+  },
+  {
+    "revision": "9dd2a7babbfd991337eb71e91ec681a8",
+    "url": "/img/books/sandwich/page1.JPG"
   },
   {
     "revision": "1ba1df1eedc6d1cb3a389f75f5b0c815",
@@ -140,12 +144,12 @@ self.__precacheManifest = [
     "url": "/img/books/sandwich/page7.jpg"
   },
   {
-    "revision": "acb6570b4a2763ebbb0e3c15029e669c",
-    "url": "/img/books/walkingTogether/page1.jpg"
-  },
-  {
     "revision": "95eacb948dca14b27f27e9879f41ce03",
     "url": "/img/books/walkingTogether/cover.jpg"
+  },
+  {
+    "revision": "acb6570b4a2763ebbb0e3c15029e669c",
+    "url": "/img/books/walkingTogether/page1.jpg"
   },
   {
     "revision": "562fd79061b9645ed468928a089ff05f",
@@ -156,44 +160,48 @@ self.__precacheManifest = [
     "url": "/img/books/walkingTogether/page5.jpg"
   },
   {
-    "revision": "f6321f90521d9b107f94040f9cd493a1",
-    "url": "/img/books/walkingTogether/page6.jpg"
-  },
-  {
     "revision": "d593d0000dd73b7fbbf74eb64f018a36",
     "url": "/img/books/walkingTogether/page7.jpg"
   },
   {
-    "revision": "9a609630dcadf681473a",
-    "url": "/js/app.9a609630.js"
+    "revision": "bac348ee3b75e45cfcdf",
+    "url": "/js/app.bac348ee.js"
+  },
+  {
+    "revision": "37dcbcf9eee70f9e7e93ec9f8399ee91",
+    "url": "/img/books/Pumpkin/page4.jpg"
   },
   {
     "revision": "5b2130e0f1666b28c1058a17dbacf8b7",
     "url": "/img/books/theLostLaugh/cover.jpg"
   },
   {
-    "revision": "50cd5d48b466f2e27dedf61d1a45f657",
-    "url": "/img/books/Pumpkin/page3.jpg"
+    "revision": "8176f7ce21acaa93ef217ac3964e1ad2",
+    "url": "/img/books/Pumpkin/page6.jpg"
   },
   {
     "revision": "e04fb7d6c1f61561ce9836665aca88f5",
     "url": "/img/books/Pumpkin/page5.jpg"
   },
   {
-    "revision": "8176f7ce21acaa93ef217ac3964e1ad2",
-    "url": "/img/books/Pumpkin/page6.jpg"
-  },
-  {
-    "revision": "797e2f442019cb2fcda57cba5b13a63c",
-    "url": "/img/books/theLostLaugh/‏‏page1.jpg"
+    "revision": "50cd5d48b466f2e27dedf61d1a45f657",
+    "url": "/img/books/Pumpkin/page3.jpg"
   },
   {
     "revision": "9e492b415d73afb131848080e0349732",
     "url": "/img/books/theLostLaugh/‏‏page2.jpg"
   },
   {
+    "revision": "797e2f442019cb2fcda57cba5b13a63c",
+    "url": "/img/books/theLostLaugh/‏‏page1.jpg"
+  },
+  {
     "revision": "2ccad31d084da1aff915b7093751e548",
     "url": "/img/books/Pumpkin/page2.jpg"
+  },
+  {
+    "revision": "8443b77ba5462d2442ea644e24247552",
+    "url": "/img/books/theLostLaugh/‏‏page5.jpg"
   },
   {
     "revision": "7883f3da351c965b2bd6e9e9cbbe8f5e",
@@ -202,10 +210,6 @@ self.__precacheManifest = [
   {
     "revision": "93c8218ce724d04e38c4607f1e371ffc",
     "url": "/img/books/theLostLaugh/‏‏page6.jpg"
-  },
-  {
-    "revision": "8443b77ba5462d2442ea644e24247552",
-    "url": "/img/books/theLostLaugh/‏‏page5.jpg"
   },
   {
     "revision": "fa84080cbe9019282a75a2df31097f96",
@@ -236,12 +240,12 @@ self.__precacheManifest = [
     "url": "/img/books/kingdom/cover.jpg"
   },
   {
-    "revision": "11fe3431f2800ef81fb81630e7461933",
-    "url": "/img/books/kingdom/page2.jpg"
-  },
-  {
     "revision": "f3f8a12e82c46f4379cdaaf0bb8640f4",
     "url": "/img/books/kingdom/page5.jpg"
+  },
+  {
+    "revision": "11fe3431f2800ef81fb81630e7461933",
+    "url": "/img/books/kingdom/page2.jpg"
   },
   {
     "revision": "7b7a4a0486d6624688a0ba12408e63b8",
@@ -288,12 +292,12 @@ self.__precacheManifest = [
     "url": "/img/categories/Friends.jpeg"
   },
   {
-    "revision": "bb7c60f79b708e9ab209267bd4a4f913",
-    "url": "/img/categories/All.jpeg"
-  },
-  {
     "revision": "7cac69d1d372c5e26ea90adbd5882272",
     "url": "/img/books/sandwich/cover.JPG"
+  },
+  {
+    "revision": "bb7c60f79b708e9ab209267bd4a4f913",
+    "url": "/img/categories/All.jpeg"
   },
   {
     "revision": "774a73ca87e52a86f456878114031c3b",

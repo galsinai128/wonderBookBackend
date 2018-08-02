@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.d82c6548e05f3bdb669b46995e5f299f.js"
+  "/precache-manifest.581ee57db6f256d695a5b9aa25bc3e88.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "wonderbookfrontend"});
