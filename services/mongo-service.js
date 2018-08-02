@@ -6,7 +6,7 @@ function connectToMongo() {
     const MongoClient = require('mongodb').MongoClient;
     
     const url = (!process.env.PORT)? 
-                    'mongodb://localhost:27017/wonder_book_db' : 'mongodb://gal128:gal128@ds245661.mlab.com:45661/wonder_book_db'
+                    'mongodb://localhost:27017/wonder_book_db' : 'mongodb://goi:963852ogi@ds245661.mlab.com:45661/wonder_book_db'
     
     return MongoClient.connect(url)
         .then(client => {
