@@ -12,6 +12,8 @@ function addBookRoutes(app) {
         else filterBy = null
         bookService.query(filterBy)
             .then(books => res.json(books))
+            .catch(err => res.status(500).send(err.message))
+
     })
 
     // SINGLE
@@ -26,6 +28,7 @@ function addBookRoutes(app) {
         const bookId = req.params.bookId;
         bookService.remove(bookId)
             .then(() => res.end(`Book ${bookId} Deleted `))
+            .catch(err => res.status(500).send(err.message))
     })
     // CREATE
     app.post(BOOK_URL, (req, res) => {
@@ -34,6 +37,8 @@ function addBookRoutes(app) {
             .then(book => {
                 res.json(book)
             })
+            .catch(err => res.status(500).send('Could not add book'))
+
     })
 
     // UPDATE
@@ -41,6 +46,8 @@ function addBookRoutes(app) {
         const book = req.body;
         bookService.update(book)
             .then(book => res.json(book))
+            .catch(err => res.status(500).send('Could not update book'))
+
     })
 
     app.get(`${IMG_SEARCH_URL}/:seatchImgInput`, (req, res) => {
