@@ -1,6 +1,9 @@
 const mongoService = require('./mongo-service.js')
 const ObjectId = require('mongodb').ObjectId;
 
+const axios = require('axios');
+const cheerio = require('cheerio');
+
 function query(filter) {
     return mongoService.connect()
         // return connectToMongo()
@@ -74,10 +77,23 @@ function update(book) {
 }
 
 
+function getImgFromApi(seatchImgInput){
+    debugger
+    return axios.get(`http://www.istockphoto.com/il/photos/${seatchImgInput}`)
+    .then(res=> {
+               const $ = cheerio.load(res.data)
+               var imgUrl = $('img.srp-asset-image').attr('src')
+               return imgUrl
+       })
+   
+   }
+   
+
 module.exports = {
     query,
     remove,
     getById,
     add,
-    update
+    update,
+    getImgFromApi
 }
