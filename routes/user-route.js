@@ -21,7 +21,6 @@ function addUserRoutes(app) {
         const user = req.body;
         userService.addUser(user)
             .then(addedUser => {
-                console.log(addedUser)
                 req.session.loggedinUser = addedUser
                 res.json(addedUser)})
             .catch(err => {
@@ -31,13 +30,11 @@ function addUserRoutes(app) {
     }),
     app.post('/checkLogin', (req, res) => {
         const credentials = req.body
-        console.log(credentials,'user')
         userService.checkLogin(credentials)
             .then(user => {
                 var user = {...user}
                 delete user.password;
                 req.session.loggedinUser = user
-                console.log('user loggin',req.session.loggedinUser)
                 res.json(user)
             })
             .catch(err => res.status(401).send('Wrong user/pass'))
@@ -48,6 +45,24 @@ function addUserRoutes(app) {
         console.log('Loggedout',req.session.loggedinUser)
 
         res.end('Loggedout!');
+    });
+
+    app.get(`/getLogin`, (req, res) => {
+        console.log('req.session.loggedinUser check login',req.session.loggedinUser)
+        // return req.session.loggedinUser;
+            return new Promise ((resolve,reject)=>{
+                if (req.session.loggedinUser) {
+                    resolve(res.json(req.session.loggedinUser))}
+                else reject('couldent get user form user server route!')
+            })
+
+        // else {
+            // return new Promise.reject('couldnt get user from server')
+        // }
+        // req.session.loggedinUser = null;
+        // console.log('Loggedout',req.session.loggedinUser)
+
+        // res.end('Loggedout!');
     });
 
 

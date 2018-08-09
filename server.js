@@ -20,7 +20,10 @@ app.use(session({
   secret: 'secret',
   resave: false,
   saveUninitialized: true,
-  cookie: { secure: false }
+  cookie: { 
+    secure: false,
+    maxAge:600000 
+  }
 }))
 
 app.use(express.static('dist'));
