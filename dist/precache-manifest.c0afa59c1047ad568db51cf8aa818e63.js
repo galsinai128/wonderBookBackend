@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "5b2130e0f1666b28c1058a17dbacf8b7",
-    "url": "/img/books/theLostLaugh/cover.jpg"
+    "revision": "562fd79061b9645ed468928a089ff05f",
+    "url": "/img/books/walkingTogether/page4.jpg"
   },
   {
-    "revision": "8548dc97fdb45fbd7d7f",
-    "url": "/css/app.09beef10.css"
+    "revision": "652f0df702809d129dda",
+    "url": "/css/app.2490540a.css"
   },
   {
-    "revision": "76703e71c97fae0d3f68",
-    "url": "/js/chunk-vendors.76703e71.js"
+    "revision": "299f252afd7e292fda21",
+    "url": "/js/chunk-vendors.299f252a.js"
   },
   {
     "revision": "773b81eacde65ae7f489033e1fbd774e",
@@ -18,10 +18,6 @@ self.__precacheManifest = [
   {
     "revision": "f5bd767db88ba143e2d5883069b20c1a",
     "url": "/img/childBlachWhite.f5bd767d.jpeg"
-  },
-  {
-    "revision": "94dfa95073c7048fb495b100f07f5a79",
-    "url": "/img/logo.94dfa950.png"
   },
   {
     "revision": "70f85d927f320e7ce7ac9696e8fb2809",
@@ -34,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "a1d66fcf99c98ae5619ba74e8f4231cc",
     "url": "/fonts/PoorStory-Regular.a1d66fcf.ttf"
+  },
+  {
+    "revision": "7706dcfd9c54cbd2fb8976fce135c8d8",
+    "url": "/fonts/Jua-Regular.7706dcfd.ttf"
   },
   {
     "revision": "bf49700d343b490c1885f6d22b1480c3",
@@ -56,6 +56,10 @@ self.__precacheManifest = [
     "url": "/img/father-son-read.6b2a806c.jpg"
   },
   {
+    "revision": "aa3f19fde92b190be34e7cc2144136c2",
+    "url": "/img/profile.aa3f19fd.png"
+  },
+  {
     "revision": "7702f27854e67b97439a756708d11637",
     "url": "/img/2.7702f278.jpg"
   },
@@ -76,7 +80,7 @@ self.__precacheManifest = [
     "url": "/img/boy-read2.cf6044c6.jpg"
   },
   {
-    "revision": "7941875e4922974f613779601051ffeb",
+    "revision": "92eed4d996b15694714a422ad1235aa9",
     "url": "/index.html"
   },
   {
@@ -108,10 +112,6 @@ self.__precacheManifest = [
     "url": "/img/background/img-error.png"
   },
   {
-    "revision": "94dfa95073c7048fb495b100f07f5a79",
-    "url": "/img/background/logo.png"
-  },
-  {
     "revision": "cf6044c6cbc13151f48618b073893779",
     "url": "/img/boy-read2.jpg"
   },
@@ -136,6 +136,10 @@ self.__precacheManifest = [
     "url": "/img/background/placeholder.png"
   },
   {
+    "revision": "53e21d7cebe20a940c453301392bceef",
+    "url": "/img/books/donut/scrypt.txt"
+  },
+  {
     "revision": "735ab4f94fbcd57074377afca324c813",
     "url": "/robots.txt"
   },
@@ -144,24 +148,28 @@ self.__precacheManifest = [
     "url": "/img/me.jpg"
   },
   {
+    "revision": "94dfa95073c7048fb495b100f07f5a79",
+    "url": "/img/background/logo.png"
+  },
+  {
     "revision": "9dd2a7babbfd991337eb71e91ec681a8",
     "url": "/img/books/sandwich/page1.JPG"
-  },
-  {
-    "revision": "1be538cf7022412f933f16e6227e9cd7",
-    "url": "/img/books/sandwich/page2.jpg"
-  },
-  {
-    "revision": "1ba1df1eedc6d1cb3a389f75f5b0c815",
-    "url": "/img/books/sandwich/page4.jpg"
   },
   {
     "revision": "930be05a00ebf2b2ddc26e3a6549006f",
     "url": "/img/books/sandwich/page5.jpg"
   },
   {
+    "revision": "1ba1df1eedc6d1cb3a389f75f5b0c815",
+    "url": "/img/books/sandwich/page4.jpg"
+  },
+  {
     "revision": "94a521cb3ce41a30e3862961e37db611",
     "url": "/img/books/sandwich/page6.jpg"
+  },
+  {
+    "revision": "1be538cf7022412f933f16e6227e9cd7",
+    "url": "/img/books/sandwich/page2.jpg"
   },
   {
     "revision": "3ea6426795184cd982252e93f072fb3e",
@@ -188,32 +196,32 @@ self.__precacheManifest = [
     "url": "/img/books/walkingTogether/page1.jpg"
   },
   {
-    "revision": "562fd79061b9645ed468928a089ff05f",
-    "url": "/img/books/walkingTogether/page4.jpg"
-  },
-  {
     "revision": "408c56b0cfe13224be48b31a61bcab67",
     "url": "/img/books/walkingTogether/page5.jpg"
-  },
-  {
-    "revision": "f6321f90521d9b107f94040f9cd493a1",
-    "url": "/img/books/walkingTogether/page6.jpg"
   },
   {
     "revision": "d593d0000dd73b7fbbf74eb64f018a36",
     "url": "/img/books/walkingTogether/page7.jpg"
   },
   {
+    "revision": "f6321f90521d9b107f94040f9cd493a1",
+    "url": "/img/books/walkingTogether/page6.jpg"
+  },
+  {
     "revision": "afd0e6d7f3ff12fa022881b2afd7cfa2",
     "url": "/img/kid-read.jpg"
+  },
+  {
+    "revision": "652f0df702809d129dda",
+    "url": "/js/app.652f0df7.js"
   },
   {
     "revision": "37dcbcf9eee70f9e7e93ec9f8399ee91",
     "url": "/img/books/Pumpkin/page4.jpg"
   },
   {
-    "revision": "8548dc97fdb45fbd7d7f",
-    "url": "/js/app.8548dc97.js"
+    "revision": "5b2130e0f1666b28c1058a17dbacf8b7",
+    "url": "/img/books/theLostLaugh/cover.jpg"
   },
   {
     "revision": "3dfe2f0db5bfab3f99000baff8d04c00",
@@ -232,12 +240,12 @@ self.__precacheManifest = [
     "url": "/img/books/Pumpkin/page6.jpg"
   },
   {
-    "revision": "797e2f442019cb2fcda57cba5b13a63c",
-    "url": "/img/books/theLostLaugh/‏‏page1.jpg"
-  },
-  {
     "revision": "9e492b415d73afb131848080e0349732",
     "url": "/img/books/theLostLaugh/‏‏page2.jpg"
+  },
+  {
+    "revision": "797e2f442019cb2fcda57cba5b13a63c",
+    "url": "/img/books/theLostLaugh/‏‏page1.jpg"
   },
   {
     "revision": "2ccad31d084da1aff915b7093751e548",
@@ -276,32 +284,32 @@ self.__precacheManifest = [
     "url": "/img/books/theLostLaugh/‏‏page4.jpg"
   },
   {
-    "revision": "d0ec5e2e6d3c91ca02bbc96ef9d70fbd",
-    "url": "/img/books/theLostLaugh/‏‏page6.PNG"
-  },
-  {
     "revision": "6b119e6f3f37a757f2bfa6745641f6a1",
     "url": "/img/boy-read1.jpg"
+  },
+  {
+    "revision": "d0ec5e2e6d3c91ca02bbc96ef9d70fbd",
+    "url": "/img/books/theLostLaugh/‏‏page6.PNG"
   },
   {
     "revision": "7cc3b3fc0ae8a6922d930fe714982919",
     "url": "/img/background/wonderbookback.jpg"
   },
   {
-    "revision": "bd9e4e1ad98c0af4eb30c25f7981bdeb",
-    "url": "/img/books/donut/page1.jpg"
-  },
-  {
     "revision": "3bd9885e2e45afe8505b0d7f20725cca",
     "url": "/img/books/kingdom/cover.jpg"
   },
   {
-    "revision": "11fe3431f2800ef81fb81630e7461933",
-    "url": "/img/books/kingdom/page2.jpg"
+    "revision": "bd9e4e1ad98c0af4eb30c25f7981bdeb",
+    "url": "/img/books/donut/page1.jpg"
   },
   {
     "revision": "f3f8a12e82c46f4379cdaaf0bb8640f4",
     "url": "/img/books/kingdom/page5.jpg"
+  },
+  {
+    "revision": "11fe3431f2800ef81fb81630e7461933",
+    "url": "/img/books/kingdom/page2.jpg"
   },
   {
     "revision": "7b7a4a0486d6624688a0ba12408e63b8",
@@ -368,10 +376,6 @@ self.__precacheManifest = [
     "url": "/img/categories/Learning_to_read.jpeg"
   },
   {
-    "revision": "774a73ca87e52a86f456878114031c3b",
-    "url": "/img/aboutlogo.jpg"
-  },
-  {
     "revision": "ad1d8478b0085a3cf2e753292ee975a8",
     "url": "/img/books/donut/dounts.m4a"
   },
@@ -390,6 +394,10 @@ self.__precacheManifest = [
   {
     "revision": "bb7c60f79b708e9ab209267bd4a4f913",
     "url": "/img/categories/All.jpeg"
+  },
+  {
+    "revision": "774a73ca87e52a86f456878114031c3b",
+    "url": "/img/aboutlogo.jpg"
   },
   {
     "revision": "86bda1e495954bfba7ced17155797e39",
@@ -418,9 +426,5 @@ self.__precacheManifest = [
   {
     "revision": "2ff0f37abd5d2e19c9de5e87281cd824",
     "url": "/audio/monsterKingdom.mp3"
-  },
-  {
-    "revision": "ad1d8478b0085a3cf2e753292ee975a8",
-    "url": "/audio/dounts.m4a"
   }
 ];
