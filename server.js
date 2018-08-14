@@ -26,10 +26,10 @@ app.use(session({
   }
 }))
 
-// app.use(express.static('dist'));
+app.use(express.static('dist'));
 
 // Serve static files (HTMLs, CSSs, JSs, Imgs, etc) from this folder
-app.use(express.static('../frontend'))
+// app.use(express.static('../frontend'))
 
 
 

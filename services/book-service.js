@@ -78,7 +78,6 @@ function update(book) {
 
 
 function getImgFromApi(seatchImgInput){
-    debugger
     return axios.get(`http://www.istockphoto.com/il/photos/${seatchImgInput}`)
     .then(res=> {
                const $ = cheerio.load(res.data)
