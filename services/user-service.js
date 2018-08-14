@@ -7,6 +7,9 @@ function checkLogin({ name , password }) {
     return mongoService.connect()
         .then(db => db.collection('user').findOne({
             $and: [{"name" : name} , {"password" : password}] }))
+            .catch(err => {
+               
+            })
 }
 
 

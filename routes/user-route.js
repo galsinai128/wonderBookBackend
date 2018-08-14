@@ -32,10 +32,15 @@ function addUserRoutes(app) {
         const credentials = req.body
         userService.checkLogin(credentials)
             .then(user => {
-                var user = {...user}
-                delete user.password;
-                req.session.loggedinUser = user
-                res.json(user)
+                console.log('user cechk',user)
+                if(user) {
+                    var user = {...user}
+                    console.log('user cechk a',user)
+                    delete user.password;
+                    req.session.loggedinUser = user
+                    res.json(user)
+                } else throw 'User not found!' 
+             
             })
             .catch(err => res.status(401).send('Wrong user/pass'))
     });
